@@ -19,7 +19,7 @@ def if_element_exist(browser, selector):
         return False
     return True
 
-def test_guest_should_see_login_link(browser):
+def test_busket_button_exist(browser):
     browser.get(link)
     assert if_element_exist(browser, '.btn-add-to-basket'), 'An element has no exist'
     #time.sleep(20)
